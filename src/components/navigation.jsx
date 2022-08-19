@@ -16,7 +16,7 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>{' '}
           </button>
           <a className='navbar-brand page-scroll' href='#page-top'>
-            React Landing Page
+            Linker5 - 翎刻
           </a>{' '}
         </div>
 
@@ -27,37 +27,37 @@ export const Navigation = (props) => {
           <ul className='nav navbar-nav navbar-right'>
             <li>
               <a href='#features' className='page-scroll'>
-                Features
+                数字化转型
               </a>
             </li>
             <li>
               <a href='#about' className='page-scroll'>
-                About
+                关于我们
               </a>
             </li>
             <li>
               <a href='#services' className='page-scroll'>
-                Services
+                服务
               </a>
             </li>
             <li>
               <a href='#portfolio' className='page-scroll'>
-                Gallery
+                行业
               </a>
             </li>
             <li>
               <a href='#testimonials' className='page-scroll'>
-                Testimonials
+                案例
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href='#team' className='page-scroll'>
-                Team
+                团队
               </a>
-            </li>
+            </li> */}
             <li>
               <a href='#contact' className='page-scroll'>
-                Contact
+                联系我们
               </a>
             </li>
           </ul>

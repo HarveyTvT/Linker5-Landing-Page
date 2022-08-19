@@ -20,7 +20,7 @@ export const Contact = (props) => {
     console.log(name, email, message)
     emailjs
       .sendForm(
-        'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID'
+        'service_zs101jo', 'service_zs101jo', e.target, 'GgSBwHEkeS92cLT_'
       )
       .then(
         (result) => {
@@ -39,10 +39,9 @@ export const Contact = (props) => {
           <div className='col-md-8'>
             <div className='row'>
               <div className='section-title'>
-                <h2>Get In Touch</h2>
+                <h2>联系我们</h2>
                 <p>
-                  Please fill out the form below to send us an email and we will
-                  get back to you as soon as possible.
+                  请填写下表给我们发送邮件，我们将尽快与您联系。
                 </p>
               </div>
               <form name='sentMessage' validate onSubmit={handleSubmit}>
@@ -54,7 +53,7 @@ export const Contact = (props) => {
                         id='name'
                         name='name'
                         className='form-control'
-                        placeholder='Name'
+                        placeholder='姓名'
                         required
                         onChange={handleChange}
                       />
@@ -68,7 +67,7 @@ export const Contact = (props) => {
                         id='email'
                         name='email'
                         className='form-control'
-                        placeholder='Email'
+                        placeholder='邮箱'
                         required
                         onChange={handleChange}
                       />
@@ -82,7 +81,7 @@ export const Contact = (props) => {
                     id='message'
                     className='form-control'
                     rows='4'
-                    placeholder='Message'
+                    placeholder='内容'
                     required
                     onChange={handleChange}
                   ></textarea>
@@ -90,17 +89,17 @@ export const Contact = (props) => {
                 </div>
                 <div id='success'></div>
                 <button type='submit' className='btn btn-custom btn-lg'>
-                  Send Message
+                  发送邮件
                 </button>
               </form>
             </div>
           </div>
           <div className='col-md-3 col-md-offset-1 contact-info'>
             <div className='contact-item'>
-              <h3>Contact Info</h3>
+              <h3>联系方式</h3>
               <p>
                 <span>
-                  <i className='fa fa-map-marker'></i> Address
+                  <i className='fa fa-map-marker'></i> 地址
                 </span>
                 {props.data ? props.data.address : 'loading'}
               </p>
@@ -108,7 +107,7 @@ export const Contact = (props) => {
             <div className='contact-item'>
               <p>
                 <span>
-                  <i className='fa fa-phone'></i> Phone
+                  <i className='fa fa-phone'></i> 电话
                 </span>{' '}
                 {props.data ? props.data.phone : 'loading'}
               </p>
@@ -116,7 +115,7 @@ export const Contact = (props) => {
             <div className='contact-item'>
               <p>
                 <span>
-                  <i className='fa fa-envelope-o'></i> Email
+                  <i className='fa fa-envelope-o'></i> 邮箱
                 </span>{' '}
                 {props.data ? props.data.email : 'loading'}
               </p>
@@ -126,7 +125,7 @@ export const Contact = (props) => {
             <div className='row'>
               <div className='social'>
                 <ul>
-                  <li>
+                  {/* <li>
                     <a href={props.data ? props.data.facebook : '/'}>
                       <i className='fa fa-facebook'></i>
                     </a>
@@ -140,7 +139,7 @@ export const Contact = (props) => {
                     <a href={props.data ? props.data.youtube : '/'}>
                       <i className='fa fa-youtube'></i>
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
@@ -150,10 +149,7 @@ export const Contact = (props) => {
       <div id='footer'>
         <div className='container text-center'>
           <p>
-            &copy; 2020 Issaaf Kattan React Land Page Template. Design by{' '}
-            <a href='http://www.templatewire.com' rel='nofollow'>
-              TemplateWire
-            </a>
+            &copy; {(new Date()).getFullYear()} 上海翎刻网络科技.
           </p>
         </div>
       </div>

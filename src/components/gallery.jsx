@@ -5,10 +5,9 @@ export const Gallery = (props) => {
     <div id='portfolio' className='text-center'>
       <div className='container'>
         <div className='section-title'>
-          <h2>Gallery</h2>
+          <h2>行业解决方案</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+            累积多年行业经验，为客户持续赋能。
           </p>
         </div>
         <div className='row'>
