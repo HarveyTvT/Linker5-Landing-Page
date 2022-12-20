@@ -77,12 +77,12 @@
       "text": "一站式会员招募、积分营销，微信短信多渠道触达"
     },
     {
-      "icon": "fa fa-cloud-download",
+      "icon": "fa fa-timeline-arrow",
       "name": "渠道分销",
       "text": "渠道营销一体化，多层级订货，促销、返利管理"
     },
     {
-      "icon": "fa fa-language",
+      "icon": "fa fa-industry-window",
       "name": "进销存",
       "text": "采购、销售、库存全链路管理"
     },
@@ -179,6 +179,20 @@
       "icon": "fa fa-group",
       "title": "企业级ERP",
       "text": "提供定制化的进销存供应链、客户关系管理、生产制造、财务系统服务，为中小企业团队快速增长提供助力"
+    }
+  ],
+  "Devices": [
+    {
+      "title": "JITAI8000",
+      "img": "img/team/01.jpg",
+      "text": "吉泰JITAI8000数字涡流探伤仪金属管棒线材在线探伤机缺陷检测仪",
+      "price": "10000"
+    },
+    {
+      "title": "JITAI8000",
+      "img": "img/team/01.jpg",
+      "text": "吉泰JITAI8000数字涡流探伤仪金属管棒线材在线探伤机缺陷检测仪",
+      "price": "10000"
     }
   ]
 }

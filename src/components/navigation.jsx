@@ -31,6 +31,11 @@ export const Navigation = (props) => {
               </a>
             </li>
             <li>
+              <a href='#devices' className='page-scroll'>
+                数字检测设备
+              </a>
+            </li>
+            <li>
               <a href='#about' className='page-scroll'>
                 关于我们
               </a>
@@ -40,7 +45,7 @@ export const Navigation = (props) => {
                 服务
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href='#portfolio' className='page-scroll'>
                 行业
               </a>
@@ -49,7 +54,7 @@ export const Navigation = (props) => {
               <a href='#testimonials' className='page-scroll'>
                 案例
               </a>
-            </li>
+            </li> */}
             {/* <li>
               <a href='#team' className='page-scroll'>
                 团队
