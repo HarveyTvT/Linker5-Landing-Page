@@ -262,7 +262,7 @@ header .intro-text {
 }
 /* About Section */
 #about {
-  padding: 50px 0;
+  padding: 50px 0 100px 0;
 }
 #about h3 {
   font-size: 22px;
@@ -459,7 +459,7 @@ header .intro-text {
 }
 /* Contact Section */
 #contact {
-  padding: 100px 0 60px;
+  padding: 0 0 60px;
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   color: rgba(255, 255, 255, 0.75);
 }
@@ -549,7 +549,7 @@ label {
   color: #777;
 }
 #devices {
-  padding-top: 50px;
+  padding: 100px 0 50px 0;
 }
 #contact .contact-item {
   margin: 20px 0;
