@@ -246,6 +246,7 @@ header .intro-text {
 }
 /* Features Section */
 #features {
+  padding-bottom: 50px;
   background: #f6f6f6;
 }
 #features i.fa {
